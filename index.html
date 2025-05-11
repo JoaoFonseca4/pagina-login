@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" class="css" />
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+<body class="relative font-md flex justify-center items-center min-h-screen" style="background-image: url(imgs/pexels-pixabay-262524.jpg); background-size: cover; background-position: center;">
+    
+    <div class="flex px-6 w-full max-w-4xl">       
+        <section class="bg-gradient-to-r from-cyan-500 to-blue-500 w-1/2 rounded-l-lg flex flex-col justify-center items-center py-10 text-center">
+             <h1 class="text-white text-5xl font-extrabold mb-4 ">BORA RACHÃO</h1>
+            <p class="text-white text-xl mb-6 max-w-xs font-semibold">
+                 Sua plataforma de eventos esportivos. Junte-se a nós e participe de competições incríveis!
+            </p>
+            <img class="w-24 h-24 " src="imgs/equipe.png" alt="" />
+        </section>
+       
+        <section class="bg-white p-10 gap-6 flex flex-col rounded-r-lg lg:w-1/2 justify-center max-h-screen">
+            <div class="text-center">
+                <h1 class="text-4xl font-bold text-gray-800 mb-2">Acesse sua conta</h1>
+                <p class="text-lg text-gray-600">Conecte-se para desbloquear todos os recursos</p>
+            </div>
+
+            <form>
+                <div class="flex flex-col gap-1">
+                    <label class="text-gray-700 text-lg" for="email">
+                         <i class="fa-solid fa-envelope  text-sm bg-orange-200 p-2 rounded-xl text-orange-500"></i>
+                     Email
+                    </label>
+                    <input id="email" type="email" placeholder="Digite seu endereço de email" class="shadow-sm py-2 px-3.5 border-2 border-gray-300 rounded-xl hover:border-gray-300 text-gray-700 focus:border-cyan-500 focus:outline-none duration-300 ease-in-out"
+                    />
+                </div>
+
+                <div class="flex flex-col gap-1">
+                    <label class="text-gray-700 text-lg" for="senha">
+                        <i class="fa-solid fa-lock text-sm bg-orange-200 p-2 rounded-xl text-orange-500"></i>
+                        Senha
+                    </label>
+                    <input id="senha" type="password" placeholder="Digite sua senha" class="shadow-sm py-2 px-3.5 border-2 border-gray-300 rounded-xl hover:border-gray-300 text-gray-700 focus:border-cyan-500 focus:outline-none duration-300 ease-in-out"/>
+                </div>
+
+                <a href="#" class=" mt-4 w-full bg-cyan-500 hover:bg-cyan-400 hover:shadow-md hover:shadow-cyan-400/35 hover:cursor-pointer text-white px-4 py-1.5 rounded-xl flex items-center justify-center duration-300 ease-in-out gap-x-1.5">
+                    Entrar
+                </a>
+                
+                <div class="flex justify-between mt-4 text-sm">
+                    <a href="#" class="text-cyan-600 hover:underline">Esqueci minha senha</a>
+                    <a href="./registro/registro.html" class="text-cyan-600 hover:underline">Criar conta</a>
+                </div>
+            </form>
+        </section>
+    </div>
+</body>
+</html>
